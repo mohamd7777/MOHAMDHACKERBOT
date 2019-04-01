@@ -5,7 +5,7 @@ const prefix = "$"
 
 
 
-//////ﬂÊœ ÿ—œ «·»Ê «  
+//////√ü√¶√è √ò√ë√è √á√°√à√¶√ä√á√ä 
 let antihack = JSON.parse(fs.readFileSync('./antihack.json' , 'utf8'));//require antihack.json file
 client.on('message', message => {
     if(message.content.startsWith(prefix + "toggleAntihack")) {
@@ -14,8 +14,8 @@ client.on('message', message => {
         if(!antihack[message.guild.id]) antihack[message.guild.id] = {
           onoff: 'Off'
         }
-          if(antihack[message.guild.id].onoff === 'Off') return [message.channel.send(`**‚úÖ The AntiHack Is __ùêéùêç__ !**`), antihack[message.guild.id].onoff = 'On']
-          if(antihack[message.guild.id].onoff === 'On') return [message.channel.send(`**‚õî The AntiHack Is __ùêéùêÖùêÖ__ !**`), antihack[message.guild.id].onoff = 'Off']
+          if(antihack[message.guild.id].onoff === 'Off') return [message.channel.send(`**√¢≈ì‚Ä¶ The AntiHack Is __√∞¬ù¬ê≈Ω√∞¬ù¬ê¬ç__ !**`), antihack[message.guild.id].onoff = 'On']
+          if(antihack[message.guild.id].onoff === 'On') return [message.channel.send(`**√¢‚Ä∫‚Äù The AntiHack Is __√∞¬ù¬ê≈Ω√∞¬ù¬ê‚Ä¶√∞¬ù¬ê‚Ä¶__ !**`), antihack[message.guild.id].onoff = 'Off']
           fs.writeFile("./antihack.json", JSON.stringify(antihack), (err) => {
             if (err) console.error(err)
             .catch(err => {
@@ -156,7 +156,7 @@ client.on('message', message => {
 antibots[message.guild.id] = {
 onoff: 'On',
 }
-message.channel.send(`**‚úÖ The AntiBots Is __ùêéùêç__ !**`)
+message.channel.send(`**√¢≈ì‚Ä¶ The AntiBots Is __√∞¬ù¬ê≈Ω√∞¬ù¬ê¬ç__ !**`)
           fs.writeFile("./antibots.json", JSON.stringify(antibots), (err) => {
             if (err) console.error(err)
             .catch(err => {
@@ -172,7 +172,7 @@ message.channel.send(`**‚úÖ The AntiBots Is __ùêéùêç__ !**`)
 antibots[message.guild.id] = {
 onoff: 'Off',
 }
-message.channel.send(`**‚õî The AntiBots Is __ùêéùêÖùêÖ__ !**`)
+message.channel.send(`**√¢‚Ä∫‚Äù The AntiBots Is __√∞¬ù¬ê≈Ω√∞¬ù¬ê‚Ä¶√∞¬ù¬ê‚Ä¶__ !**`)
           fs.writeFile("./antibots.json", JSON.stringify(antibots), (err) => {
             if (err) console.error(err)
             .catch(err => {
@@ -198,7 +198,7 @@ console.error(err);
 });
 })
 
-//////ﬂÊœ „‰⁄ «· Œ—Ì»
+//////√ü√¶√è √£√§√ö √á√°√ä√é√ë√≠√à
 
 var config = {
   events: [
@@ -271,14 +271,14 @@ client.user.setGame(`#Dev by osama,tech.#0184`,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
 });
 
-/////// «·„‘«—ﬂÌ‰ ›Ì «·»Ê  " 
-////// 1- server codes
-////// 2- -Kyle,#4434
-////// 3- osama,tech.#0184
-/////—«»ÿ ”Ì—›— «”«„… https://discord.gg/QMeKMyg
-///// 4- Azoqz#0888
+///////
+////// 
+////// 
+//////
+/////
+/////
 
 
 
 
-client.login(" Êﬂ‰ «·»Ê ");
+client.login("NTYyMzE5NTQxNTQ0NDE5MzQ4.XKJC-Q.K90ywbQjTn_FJqgLMoUMGeygsEI");
